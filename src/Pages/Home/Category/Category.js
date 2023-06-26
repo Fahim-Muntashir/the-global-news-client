@@ -5,6 +5,7 @@ import NewsCard from "../NewsCard/NewsCard";
 const Category = () => {
   const { id } = useParams();
   const categoryNews = useLoaderData();
+  console.log(categoryNews);
   return (
     <div>
       <h2>This Category News{categoryNews.length}</h2>
